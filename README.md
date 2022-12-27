@@ -7,7 +7,7 @@ This application allows for **(local) client-server functionality** to occur in 
 This application was written in C for several reasons
 - Fine access to threads and low-level memory allows the querying operations to be very fast.
 - Low memory footprint allows operations to be deployed on weaker hardware.
-- Multithreading support allows for server to handle several clients at once with minimal performance overhead.
+- Multithreading support allows for the server to handle several clients at once with minimal performance overhead.
 
 ## Video of the application running:
 https://user-images.githubusercontent.com/81977350/209725059-d7cf019e-9532-4d14-a0d5-491a4d32f326.mp4
