@@ -17,11 +17,11 @@ https://user-images.githubusercontent.com/81977350/209725059-d7cf019e-9532-4d14-
 ## Instructions to compile and run the application:
 
 ## Linux
-1. Use the MakeFile under the src/ directory to compile the C files
-2. Open up at  two terminals, one for the server and another for the clients (can have more)
-3. In one of the terminals, run the server executable by typing ./server
+1. Use the Makefile under the src/ directory to compile the C files using the `make` command
+2. Open up at least two terminals, one for the server and another for the clients (can have more)
+3. In one of the terminals, run the server executable by typing `./server`
 4. Once the server is running, type in the file that you want to read from (by default, it is pokemon.csv)
-5. In the other terminal, run the client executable by typing ./client
+5. In the other terminal, run the client executable by typing `./client`
 6. Once there, the terminal will open up the options on what can be done in the program.
 
 ## Potential Improvements and Advancements
