@@ -101,8 +101,8 @@ int main() {
     exit(-1);
   }
 
-  // Set up the line-up to handle up to 1 clients in line 
-  status = listen(serverSocket, 1);
+  // Set up the line-up to handle up to 5 clients in line 
+  status = listen(serverSocket, 5);
   if (status < 0) {
     printf("*** SERVER ERROR: Could not listen on socket.\n");
     close(serverSocket);
